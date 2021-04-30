@@ -1,13 +1,14 @@
 import "./App.css";
 import Signin from "./components/Signin";
 import Topics from "./components/Topics";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className='App'>
+    <Container className='App'>
       <Signin />
       <Topics />
-    </div>
+    </Container>
   );
 }
 

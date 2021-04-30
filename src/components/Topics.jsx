@@ -5,7 +5,13 @@ const Topics = () => {
   return (
     <Card>
       <Card.Body>
-        <h1>Topics</h1>
+        <h4>Web Development (Example Club)</h4>
+        <ul className='users'>
+          <li>Web Dev Simplified @DevSimplified</li>
+          <li>Ben Awad @benawad</li>
+          <li>Dev Ed @developedbyEd</li>
+          <li>... and 50 others</li>
+        </ul>
       </Card.Body>
     </Card>
   );
